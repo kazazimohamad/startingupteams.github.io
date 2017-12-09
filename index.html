@@ -21,24 +21,114 @@
 
     <li data-menuanchor="firstPage" class=""><a href="#firstPage">نخست</a></li>
     <li data-menuanchor="secondPage" class="active"><a href="#secondPage">چیستیم؟</a></li>
-    <li data-menuanchor="3rdPage" class=""><a href="#3rdPage">فعالیت ها</a></li>
+    <li data-menuanchor="3rdPage" class=""><a href="#3rdPage">دوره ها</a></li>
+    <li data-menuanchor="4rdPage" class=""><a href="#4rdPage">تماس</a></li>
 </ul>
 
 <div id="fullpage">
 	<div class="section " id="section0">
 		<div class="content">
 		<img class="center-text-png" src="./assets/img/slider-text.png" alt="startingup text logo"/>
-			<br />
-			<br />
-			<br />
-			<br />
+		<div class="slogan">
+			<p>ما سنگ جادو را پیدا کردیم</p>
+			<img src="./assets/img/adamak.png" alt="startingup text logo"/>
+		</div>
 			
 		
 			
 		</div>
-		<div class="slogan">
-			<p>We found magic stone !!!</p>
-			<img src="./assets/img/adamak.png" alt="startingup text logo"/>
+		
+	</div>
+	<div class="section " id="section1">
+		
+				<div class="slide" id="slide1">
+				<div class="content">
+					<img class="" src="./assets/img/text-section2.png" alt="startingup text logo"/>
+		
+	
+					<h2>استارتینگ آپ چیست ؟ </h2>
+					<h4 >
+					استارتینگ آپ گروهی برای آموزش برنامه نویسی به صورت تیمی به علاقه مندان شکل گرفته است
+					</h4>
+					
+				</div>
+			</div>
+			<div class="slide" id="slide2">
+				<div class="content">
+					<h5 class="content-w80">
+					این گروه فعالیت خود را در ابتدا با آموزش زبان برنامه نویسی پایتون آغاز کرده است که در آینده فعالیت خود را به زبان های برنامه نویسی دیگر گسترش خواهد داد. 
+تفاوت اصلی این گروه با گروه های آموزشی مشابه در روش ارایه آموزش به نوآموزان است.  
+این گروه فعالیت خود را از تاریخ ۱۳ مهر ۹۶ در جلسه ۲۳۷ تهران لاگ آغاز کرده است و در حال حاضر اولین دوره این سیستم آموزشی آخرین اسپرینت خود را میگزراند.
+
+					</h5>
+				</div>
+			</div>
+		<div class="slide" id="slide3">
+				<div class="content">
+				<h2>انگیزه و هدف شکل گیری </h2>
+					<h5 class="content-w80">
+					برگزاری دوره های آموزشی پروژه محور
+یادگیری بر مبنای نوآموز محور 
+پرورش نیروی برنامه نویس آشنا به کار تیمی و پر کردن خلا نداشتن تجربه کار تیمی در متقاضیان ورود به بازار کار
+معرفی نیروهای برنامه نویس مستعد در طول دوره های آموزشی به بازا کار
+گسترش حوزه کاری بطوری که بتوان با انجام پروژه های کاربردی و واقعی توسط نوآموزان به کسب درآمد پرداخت. 
+
+					</h5>
+				</div>
+			</div>
+		
+
+			
+
+	</div>
+	<div class="section" id="section2">
+		<div class="slide" id="slide1">
+			<div class="content">
+			<img class="" src="./assets/img/text-section3.png" alt="startingup sections"/>
+		
+				<h2>دوره های ما</h2>
+				<h3>Python , PHP , NODE JS , HTML & CSS </h3>
+			</div>
+		</div>
+		<div class="slide" id="slide2">
+			<div class="content">
+				<h2>Python</h2>
+				<h5 class="">
+				تمام شده
+				<br />
+				پیش نیاز ندارد
+				</h5>
+			</div>
+		</div>
+		<div class="slide" id="slide2">
+			<div class="content">
+				<h2>PHP</h2>
+				<h5 class="">
+				در انتظار ثبت نام
+				<br />
+				پیش نیاز : HTML&CSS
+				</h5>
+			</div>
+		</div>
+		<div class="slide" id="slide3">
+			<div class="content">
+				<h2>NODE JS</h2>
+				<h5 class="">
+				در انتظار ثبت نام
+				<br />
+				پیش نیاز ندارد
+				</h5>
+			</div>
+		</div>
+		<div class="slide" id="slide3">
+			<div class="content">
+				<h2>HTML & CSS</h2>
+				<h5 class="">
+				در انتظار ثبت نام
+				<br />
+				پیش نیاز ندارد
+				</h5>
+			</div>
 		</div>
 	</div>
 </div>
@@ -48,7 +138,8 @@
 	fullpage.initialize('#fullpage', {
 		anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
 		menu: '#menu',
-		css3:true
+		css3:true,
+		dragAndMove: true
 	});
 
 </script>

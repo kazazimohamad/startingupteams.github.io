@@ -72,6 +72,21 @@
 			text-align: center;
 		}
 		
+		.content-holder{
+			width: 100%;
+			position: relative;
+		}
+		.content-section{
+			width: 50%;
+			float: left;
+		}
+		.content-w80{
+			width: 80%;
+			margin: auto;
+			text-align: justify;
+			direction: rtl;
+		}
+			
 		/* Menu
 		 * --------------------------------------- */
 		#menu li {
@@ -139,16 +154,12 @@
 		}
 		#section0 p{
 			color: #333;
-			opacity: 0.4;
 		}
 		.center-text-png{
 			width: 60%;
 		}
 		.slogan{
-			position: absolute;
-			bottom: 0;
-			text-align: center;
-			width: 100%;
+
 		}
 		/* Section 2
 		 * --------------------------------------- */
@@ -168,4 +179,48 @@
 		#section1 p{
 			opacity: 0.8;
 		}
+/* Section 3
+		 * --------------------------------------- */
+		#section2{
+			background-color: #AE93EB;
+			background-color: #ffde5d;
+			
+		}
+		#section0 h1{
+			color: #444;
+		}
+		#section0 p{
+			color: #333;
+		}
+		.center-text-png{
+			width: 60%;
+		}
+	
+/* media
+		 * --------------------------------------- */
 
+@media all and (min-width:1025px) and (max-width: 1920px) {
+  /* put your css styles in here */
+  .center-text-png{
+	  width: 30%;
+  }
+}
+@media all and (min-width:481px) and (max-width: 1024px) {
+  /* put your css styles in here */
+}
+
+@media all and (min-width:0px) and (max-width: 480px) {
+	#menu li{
+		margin:10px 2px;
+		font-size: .8em;
+	}
+	#menu li a, #menu li.active a{
+		    padding: 5px 8px;
+	}
+	.content-holder{
+		width: 100%;
+	}
+	.content-section{
+		width: 100%;
+	}
+}		
