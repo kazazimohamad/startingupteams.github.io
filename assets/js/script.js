@@ -111,4 +111,39 @@ $(function() {
         });
     }
 
+    var $teachers1 = $('.teachers1');
+    if ($teachers1.length && $.fn.owlCarousel) {
+        $teachers1.owlCarousel({
+            nav: true,
+            dots: false,
+            rtl: true,
+            items: 3,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 3
+                },
+                1280: {
+                    items: 5
+                }
+            },
+            navText: ['<span class="ti-arrow-left"></span>', '<span class="ti-arrow-right"></span>']
+        });
+    }
+
+    var $teachers2 = $('.teachers2');
+    if ($teachers2.length && $.fn.owlCarousel) {
+        $teachers2.owlCarousel({
+            nav: true,
+            dots: false,
+            rtl: true,
+            items: 3,
+            navText: ['<span class="ti-arrow-left"></span>', '<span class="ti-arrow-right"></span>']
+        });
+    }
+
+
+
 }); /* End Fn */
